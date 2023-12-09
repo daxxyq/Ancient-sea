@@ -38,21 +38,20 @@ const Home: NextPage = () => {
             <div className={styles.heroBody}>
               <h1 className={styles.heroTitle}>
                 <span className={styles.heroTitleGradient}>
-                  Build NFT Marketplaces
+                  Dive into Ancient Sea
                 </span>
                 <br />
-                faster than ever.
+                NFT Marketplace.
               </h1>
               <p className={styles.heroSubtitle}>
                 <Link
                   className={styles.link}
-                  href="https://thirdweb.com"
+                  href="#"
                   target="_blank"
                 >
-                  thirdweb
+                  Explore 
                 </Link>{" "}
-                gives you the tools you need to create audited, performant, and
-                flexible NFT marketplaces in <b>hours</b>, <i>not months</i>.
+                 - an open NFT marketplace designed to make trading & creating digital art .<i>simple and social</i>.
               </p>
 
               <div className={styles.heroCtaContainer}>
@@ -61,10 +60,10 @@ const Home: NextPage = () => {
                 </Link>
                 <Link
                   className={styles.secondaryCta}
-                  href="https://github.com/thirdweb-example/marketplace-v3"
+                  href="https://ancient-sea.vercel.app/sell"
                   target="_blank"
                 >
-                  GitHub
+                 Mint NFT
                 </Link>
               </div>
             </div>
